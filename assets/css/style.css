@@ -1,0 +1,48 @@
+.title {
+    background-color:rgb(163, 150, 27) ;
+    text-shadow: 2px 2px white;
+    padding: 10px 25px;
+}
+
+.img {
+    width: 15%;
+    height: 50%;
+
+    
+    
+}
+.instructions {
+    background: rgb(216, 155, 75);
+}
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("background1.jpg")
+    
+}
+.score {
+    background: rgb(81, 138, 157);
+}
+.wins-loses {
+    background: rgb(81, 138, 157);
+    margin-left: 10px;
+
+}
+
+.num {
+    background:rgb(81, 138, 157);
+}
+.gems {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: -15px;
+}
+.gemrow {
+    margin-bottom: -25px;
+   
+}
+.number {
+    font-size: 80px;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crystal Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-3-md title">
+                    <h1>Crystal Collector!</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6 instructions">
+                <p>You will be giving a random number at the start of the game.</p>
+                <p>There will be four crystals below. At the start of the game they will be assigned each a random value.</p>
+                <p>To win, you need to match your score with the randomly generated number.</p>
+                <p>If you go over the randomly generated number, you lose.</p>
+                <p>We do keep track!</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3 num">
+                    <strong>
+                        <h4>Match this number!</h4>
+                    <div cclass="number" id="number"></div>
+                    </strong>
+
+                </div>
+                 <div class="col-md-2 wins-loses">
+                    <h3>Wins:
+                        <span id="userWins"></span>
+                    
+                    <br>
+                    <h3>Loses: 
+                        <span id="userLoses"></span>
+                    </h3> 
+
+                </div>
+            </div>  
+                
+            <div class="row gemrow">
+                    <div class="col-md-10 gems">
+                        <img  class="img" id="gem1" src="assets/images/blue.png">
+                        <img  class="img" id="gem2" src="assets/images/diamond.png">
+                        <img  class="img" id="gem3" src="assets/images/red.png">
+                        <img  class="img" id="gem4" src="assets/images/yellow.png">
+                    </div>
+            </div>        
+            <div class="row">
+                <div class="col-md-5 score">
+                    <h3>Score: 
+                        <span id="userScore"></span>
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+</html>

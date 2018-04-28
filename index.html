@@ -6,14 +6,17 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
+        <!--start the container-->
         <div class="container">
             <div class="row">
+                <!--heading-->
                 <div class="col-3-md title">
                     <h1>Crystal Collector!</h1>
                 </div>
             </div>
             <br>
             <div class="row">
+                <!--instructions-->
                 <div class="col-md-6 instructions">
                 <p>You will be giving a random number at the start of the game.</p>
                 <p>There will be four crystals below. At the start of the game they will be assigned each a random value.</p>
@@ -24,6 +27,7 @@
             </div>
             <br>
             <div class="row">
+                <!--added 2 columns. one for the number the user needs to matchj. other is the keep track of wins and loses.-->
                 <div class="col-md-3 num">
                     <strong>
                         <h4>Match this number!</h4>
@@ -42,7 +46,7 @@
 
                 </div>
             </div>  
-                
+                <!--adding images for the gems. buttons will be added via js.-->
             <div class="row gemrow">
                     <div class="col-md-10 gems">
                         <img  class="img" id="gem1" src="assets/images/blue.png">
@@ -50,7 +54,9 @@
                         <img  class="img" id="gem3" src="assets/images/red.png">
                         <img  class="img" id="gem4" src="assets/images/yellow.png">
                     </div>
-            </div>        
+            </div> 
+            <!--User score. Needs to match the random number generated.-->
+              
             <div class="row">
                 <div class="col-md-5 score">
                     <h3>Score: 

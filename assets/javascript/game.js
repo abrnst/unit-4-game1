@@ -88,7 +88,7 @@ $(document).ready (function(){
             
         }
     })
-
+    //reset function. it will cast on any win or loss.
     function reset()
     {
         random = Math.floor(Math.random() * 101 + 20);
